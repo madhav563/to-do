@@ -1,0 +1,182 @@
+/* General layout */
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f2f5f7;
+  min-height: 100vh;
+}
+
+.todo-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.todo-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form styles */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.todo-form button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-form button:hover {
+  background-color: #1565c0;
+}
+
+/* Todo list */
+.allTodos {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.singleToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.todoText {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Buttons */
+.singleToDo button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.singleToDo button:first-of-type {
+  background-color: #ffb74d;
+  color: white;
+}
+
+.singleToDo button:first-of-type:hover {
+  background-color: #ffa726;
+}
+
+.singleToDo button:last-of-type {
+  background-color: #ef5350;
+  color: white;
+}
+
+.singleToDo button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+/* Logout Button */
+button.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.logout-btn:hover {
+  background-color: #555;
+}
+
+
+
+
+/* .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000;
+  }
+  
+  .container{
+    display: flex;
+    height: 80vh;
+    border: 1px solid grey;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .todoform{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+  }
+  
+  input{
+    width: 80%;
+    padding:10px;
+    border-radius: 20px;
+  }
+  
+  button {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+  }
+  
+  .allTodos {
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+  
+  .singleToDo {
+    border-radius: 50px;
+    margin: 10px 0;
+    background-color: #1dc33b;
+    padding: 10px 20px;
+    display: flex;
+    width: 450px;
+    align-items: center;
+  }
+  
+  .todoText {
+    flex: 1;
+  } */

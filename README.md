@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+This README will describe how to set up and run the backend.
+
+```markdown
+# Backend - To-Do App
+
+This is the backend for the To-Do app built with Node.js and Express. It provides API endpoints for user registration, login, and CRUD operations for tasks.
+
+## Setup
+
+### 1. Install Dependencies
+
+```bash
+npm install
